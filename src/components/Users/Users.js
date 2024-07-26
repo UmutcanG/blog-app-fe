@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from 'react';
-import { getUsers, deleteUser } from '../api'; 
+import { getUsers, deleteUser } from '../../services/api'; 
 import { useNavigate } from 'react-router-dom';
 import './Users.css'; 
 

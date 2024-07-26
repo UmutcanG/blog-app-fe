@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getWelcome } from '../api';
+import { getWelcome } from '../../services/api';
 import './Welcome.css';
 
 const Welcome = () => {
